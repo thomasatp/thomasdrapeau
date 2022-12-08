@@ -9,7 +9,7 @@ import colors from "../utils/colors";
 function Page() {
   const title = "Agence Kanji";
   const role = "UI Design / dévelopement";
-  const tags = ["Figma", "React", "Next Js", "Sass", "Nodemailer"];
+  const tags = ["Figma", "React", "Next Js", "Sass"];
   const link = "https://www.agencekanji.com/";
   const image = "../images/kanji.jpg";
   const repo = { exist: false, link: "" };
