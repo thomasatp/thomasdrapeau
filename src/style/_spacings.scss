@@ -1,0 +1,236 @@
+// Spacing values
+
+$sizes: (0: 0, xxs: 0.2, xs: 0.4, s: 0.8, sm: 1.6, m: 2.4, ml: 3.2, l: 4.8, xl: 6.4, xxl: 12.8);
+
+@each $name, $size in $sizes {
+    .br-#{$name} {
+        border-radius: $size + rem;
+    }
+}
+
+// Margins
+
+@each $name, $size in $sizes {
+    .mh-#{$name} {
+        margin-right: $size + rem;
+        margin-left: $size + rem;
+    }
+}
+@each $name, $size in $sizes {
+    .mv-#{$name} {
+        margin-top: $size + rem;
+        margin-bottom: $size + rem;
+    }
+}
+
+@each $name, $size in $sizes {
+    .mt-#{$name} {
+        margin-top: $size + rem;
+    }
+}
+@each $name, $size in $sizes {
+    .mb-#{$name} {
+        margin-bottom: $size + rem;
+    }
+}
+@each $name, $size in $sizes {
+    .mr-#{$name} {
+        margin-right: $size + rem;
+    }
+}
+@each $name, $size in $sizes {
+    .ml-#{$name} {
+        margin-left: $size + rem;
+    }
+}
+
+
+// Margins for tablet and mobile
+
+@media #{$mobileAndTablet} {
+    @each $name, $size in $sizes {
+        .mt-mh-#{$name} {
+            margin-right: $size + rem;
+            margin-left: $size + rem;
+        }
+    }
+    @each $name, $size in $sizes {
+        .mt-mv-#{$name} {
+            margin-top: $size + rem;
+            margin-bottom: $size + rem;
+        }
+    }
+
+     @each $name, $size in $sizes{
+        .mt-mt-#{$name} {
+            margin-top: $size + rem;
+        }
+    }
+    @each $name, $size in $sizes {
+        .mt-mb-#{$name} {
+            margin-bottom: $size + rem;
+        }
+    }
+    @each $name, $size in $sizes {
+        .mt-mr-#{$name} {
+            margin-right: $size + rem;
+        }
+    }
+    @each $name, $size in $sizes {
+        .mt-ml-#{$name} {
+            margin-left: $size + rem;
+        }
+    }
+   
+}
+
+// Margins for mobile
+
+@media #{$mobileOnly} {
+    @each $name, $size in $sizes {
+        .m-mh-#{$name} {
+            margin-right: $size + rem;
+            margin-left: $size + rem;
+        }
+    }
+    @each $name, $size in $sizes {
+        .m-mv-#{$name} {
+            margin-top: $size + rem;
+            margin-bottom: $size + rem;
+        }
+    }
+    @each $name, $size in $sizes{
+       .m-mt-#{$name} {
+           margin-top: $size + rem;
+       }
+   }
+   @each $name, $size in $sizes {
+       .m-mb-#{$name} {
+           margin-bottom: $size + rem;
+       }
+   }
+   @each $name, $size in $sizes {
+       .m-mr-#{$name} {
+           margin-right: $size + rem;
+       }
+   }
+   @each $name, $size in $sizes {
+       .m-ml-#{$name} {
+           margin-left: $size + rem;
+       }
+   }
+   
+}
+
+// Paddings
+
+@each $name, $size in $sizes {
+    .ph-#{$name} {
+        padding-right: $size + rem;
+        padding-left: $size + rem;
+    }
+}
+@each $name, $size in $sizes {
+    .pv-#{$name} {
+        padding-top: $size + rem;
+        padding-bottom: $size + rem;
+    }
+}
+
+@each $name, $size in $sizes {
+    .pt-#{$name} {
+        padding-top: $size + rem;
+    }
+}
+@each $name, $size in $sizes {
+    .pb-#{$name} {
+        padding-bottom: $size + rem;
+    }
+}
+@each $name, $size in $sizes {
+    .pr-#{$name} {
+        padding-right: $size + rem;
+    }
+}
+@each $name, $size in $sizes {
+    .pl-#{$name} {
+        padding-left: $size + rem;
+    }
+}
+
+
+// Paddings for tablet and mobile
+
+@media #{$mobileAndTablet} {
+    @each $name, $size in $sizes {
+        .mt-ph-#{$name} {
+            padding-right: $size + rem;
+            padding-left: $size + rem;
+        }
+    }
+    @each $name, $size in $sizes {
+        .mt-pv-#{$name} {
+            padding-top: $size + rem;
+            padding-bottom: $size + rem;
+        }
+    }
+     @each $name, $size in $sizes{
+        .mt-pt-#{$name} {
+            padding-top: $size + rem;
+        }
+    }
+    @each $name, $size in $sizes {
+        .mt-pb-#{$name} {
+            padding-bottom: $size + rem;
+        }
+    }
+    @each $name, $size in $sizes {
+        .mt-pr-#{$name} {
+            padding-right: $size + rem;
+        }
+    }
+    @each $name, $size in $sizes {
+        .mt-pl-#{$name} {
+            padding-left: $size + rem;
+        }
+    }
+    
+}
+
+// Paddings for mobile
+
+@media #{$mobileOnly} {
+    @each $name, $size in $sizes {
+        .m-ph-#{$name} {
+            padding-right: $size + rem;
+            padding-left: $size + rem;
+        }
+    }
+    @each $name, $size in $sizes {
+        .m-pv-#{$name} {
+            padding-top: $size + rem;
+            padding-bottom: $size + rem;
+        }
+    }
+    @each $name, $size in $sizes{
+       .m-pt-#{$name} {
+           padding-top: $size + rem;
+       }
+   }
+   @each $name, $size in $sizes {
+       .m-pb-#{$name} {
+           padding-bottom: $size + rem;
+       }
+   }
+   @each $name, $size in $sizes {
+       .m-pr-#{$name} {
+           padding-right: $size + rem;
+       }
+   }
+   @each $name, $size in $sizes {
+       .m-pl-#{$name} {
+           padding-left: $size + rem;
+       }
+   }
+   
+}

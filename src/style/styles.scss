@@ -1,0 +1,59 @@
+@import 'vars.scss';
+@import 'spacings.scss';
+@import 'grid.scss';
+@import 'layout.scss';
+@import 'fonts.scss';
+@import 'helpers.scss';
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+html {
+    font: 10px 'Helvetica Neue', Arial, Sans-Serif;
+    line-height: 1.5;
+    background: #ffffff;
+    min-height: 100vh;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+
+@media #{$desktopOnly} {
+    .d-hidden {
+        opacity: 0;
+    }
+}
+
+@media #{$mobileAndTablet} {
+    .mt-hidden {
+        opacity: 0;
+    }
+}
+
+@media #{$mobileOnly} {
+    .m-hidden {
+        opacity: 0;
+    }
+}
+.pointer-none {
+    pointer-events: none;
+}
+
+.pointer-auto {
+    pointer-events: auto;
+}
+
+ul, menu {
+    display: flex;
+    list-style: none;
+}
+
+a {text-decoration: none;}
