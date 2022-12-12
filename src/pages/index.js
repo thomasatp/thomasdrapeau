@@ -20,7 +20,7 @@ function IndexPage() {
             >
               <StaticImage
                 src="../images/kanji.jpg"
-                alt="Agence Kanji"
+                alt="Kanji"
                 placeholder="blurred"
                 quality="100"
               />
@@ -48,7 +48,7 @@ function IndexPage() {
             >
               <StaticImage
                 src="../images/checkout.jpg"
-                alt="Checkout refit"
+                alt="Lacoste - Checkout refit"
                 placeholder="blurred"
                 quality="100"
               />
