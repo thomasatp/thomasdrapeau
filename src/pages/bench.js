@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import Seo from "../components/seo";
+import { Seo } from "../components/seo";
 import { StaticImage } from "gatsby-plugin-image";
 import { LinkNext } from "grommet-icons";
 import { Github } from "grommet-icons";

@@ -2,6 +2,9 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  // flags: {
+  //   DEV_SSR: true,
+  // },
   siteMetadata: {
     title: `Thomas Drapeau`,
     description: `UI designer et front end developer en devenir.`,

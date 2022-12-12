@@ -2,7 +2,7 @@ import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
 import Tile from "../components/tile";
-import Seo from "../components/seo";
+import { Seo } from "../components/seo";
 
 function IndexPage() {
   return (
