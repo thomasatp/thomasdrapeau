@@ -14,7 +14,7 @@ export const Seo = ({ title, description }) => {
 
   return (
     <>
-      <title>{seo.title}</title>
+      <title>{`${seo.title} | ${defaultTitle}`}</title>
       <meta name="description" content={seo.description} />
     </>
   );

@@ -2,9 +2,9 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
-  // flags: {
-  //   DEV_SSR: true,
-  // },
+  flags: {
+    DEV_SSR: true,
+  },
   siteMetadata: {
     title: `Thomas Drapeau`,
     description: `UI designer et front end developer en devenir.`,
@@ -48,6 +48,13 @@ module.exports = {
         path: "./src/images/",
       },
       __key: "images",
+    },
+    {
+      resolve: "gatsby-plugin-vercel",
+      options: {
+        // (optional) Prints metrics in the console when true
+        debug: false,
+      },
     },
   ],
 };
