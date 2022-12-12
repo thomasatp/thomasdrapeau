@@ -21,11 +21,11 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: `GatsbyJS`,
-        short_name: `GatsbyJS`,
+        name: `Thomas Drapeau`,
+        short_name: `Thomas Drapeau`,
         start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
         display: `standalone`,
         icon: "src/images/icon.png",
       },
