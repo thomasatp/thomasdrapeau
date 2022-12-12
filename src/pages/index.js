@@ -18,28 +18,13 @@ function IndexPage() {
               title="Agence Kanji"
               subtitle="Création de site"
             >
-              <StaticImage
-                src="../images/kanji.jpg"
-                alt="Kanji"
-                placeholder="blurred"
-                quality="100"
-              />
+              <StaticImage src="../images/kanji.jpg" alt="Kanji" />
             </Tile>
             <Tile to="/bench" title="Bench" subtitle="Projet personnel">
-              <StaticImage
-                src="../images/bench.jpg"
-                alt="Bench"
-                placeholder="blurred"
-                quality="100"
-              />
+              <StaticImage src="../images/bench.jpg" alt="Bench" />
             </Tile>
             <Tile to="/todo" title="Todo App" subtitle="Projet personnel">
-              <StaticImage
-                src="../images/todo.jpg"
-                alt="Todo App"
-                placeholder="blurred"
-                quality="100"
-              />
+              <StaticImage src="../images/todo.jpg" alt="Todo App" />
             </Tile>
             <Tile
               to="/lacoste-checkout-refit"
@@ -49,8 +34,6 @@ function IndexPage() {
               <StaticImage
                 src="../images/checkout.jpg"
                 alt="Lacoste - Checkout refit"
-                placeholder="blurred"
-                quality="100"
               />
             </Tile>
           </div>
