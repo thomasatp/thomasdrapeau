@@ -3,13 +3,14 @@ import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
 import Tile from "../components/tile";
 import { Seo } from "../components/seo";
+import "@fontsource-variable/inter-tight";
 
 function IndexPage() {
   return (
     <Layout>
       <div className="row">
         <h1 className="cell-5 cell-mt-8 cell-m-12 subheadline mv-xxl pt-xxl mt-pt-0">
-          UI designer et front end developer en devenir.
+          UX/UI designer<br></br> Développeur front end
         </h1>
         <div className="cell-12">
           <div className="row">
@@ -36,6 +37,22 @@ function IndexPage() {
                 alt="Lacoste - Checkout refit"
               />
             </Tile>
+            <Tile
+              to="/lacoste-design-system"
+              title="Lacoste"
+              subtitle="Design system"
+            >
+              <StaticImage
+                src="../images/designsystem.jpg"
+                alt="Lacoste - Design system"
+              />
+            </Tile>
+            {/* <Tile to="/valbiotis" title="Valbiotis" subtitle="UX Design">
+              <StaticImage
+                src="../images/designsystem.jpg"
+                alt="Lacoste - Design system"
+              />
+            </Tile> */}
           </div>
         </div>
       </div>

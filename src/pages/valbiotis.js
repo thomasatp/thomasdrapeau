@@ -67,7 +67,7 @@ function Page() {
             </div>
           </div>
         </div>
-        <div className="cell-12 mt-xl">
+        <div className="cell-12 mv-xl">
           <div className="pv-xxl ph-xxl mt-pv-l mt-ph-m b-medium-light br-sm overflow-hidden">
             <StaticImage src={image} alt={title} />
           </div>

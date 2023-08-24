@@ -7,14 +7,14 @@ import { Github } from "grommet-icons";
 import colors from "../utils/colors";
 
 function Page() {
-  const title = "Agence Kanji";
-  const role = "UI Design / dévelopement";
-  const tags = ["Figma", "React", "Next Js", "Sass", "Nodemailer"];
-  const link = "https://www.agencekanji.com/";
-  const image = "../images/kanji.jpg";
+  const title = "Lacoste Design System";
+  const role = "UI Design";
+  const tags = ["Figma"];
+  const link = "https://www.lacoste.com/fr/";
+  const image = "../images/designsystem.jpg";
   const repo = { exist: false, link: "" };
   const description =
-    "Création de site web pour l'agence Kanji, spécialisée dans le conseil en Marketplaces. Conception UI sur Figma puis développement sur Next JS. Utilisation de Sass pour les styles, création du formulaire de contact avec nodemailer.";
+    "Contribution et migration du design system Lacoste sur Figma";
 
   return (
     <Layout>
@@ -67,7 +67,7 @@ function Page() {
             </div>
           </div>
         </div>
-        <div className="cell-12 mt-xl">
+        <div className="cell-12 mv-xl">
           <div className="pv-xxl ph-xxl mt-pv-l mt-ph-m b-medium-light br-sm overflow-hidden">
             <StaticImage src={image} alt={title} />
           </div>
@@ -81,7 +81,7 @@ export default Page;
 
 export const Head = () => (
   <Seo
-    title="Agence Kanji"
-    description="Création de site web pour l'agence Kanji, spécialisée dans le conseil en Marketplaces. Conception UI sur Figma puis développement sur Next JS. Utilisation de Sass pour les styles, création du formulaire de contact avec nodemailer."
+    title="Lacoste Checkout refit"
+    description="Contribution et migration du design system Lacoste sur Figma"
   />
 );
