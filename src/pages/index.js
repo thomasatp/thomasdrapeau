@@ -63,8 +63,5 @@ function IndexPage() {
 export default IndexPage;
 
 export const Head = () => (
-  <Seo
-    title="Homepage"
-    description="UI designer et front end developer en devenir."
-  />
+  <Seo title="Homepage" description="UX/UI designer / Développeur front end" />
 );
